@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleTestApp\/1.0.0": {
+        "dependencies": {
+          "My.Interface": "1.0.0",
+          "My.Interface.Extended": "1.0.0",
+          "My.Interface.Extended.Implementor": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleTestApp.dll": {}
+        }
+      },
+      "My.Interface\/1.0.0": {
+        "runtime": {
+          "My.Interface.dll": {}
+        }
+      },
+      "My.Interface.Extended\/1.0.0": {
+        "dependencies": {
+          "My.Interface": "1.0.0"
+        },
+        "runtime": {
+          "My.Interface.Extended.dll": {}
+        }
+      },
+      "My.Interface.Extended.Implementor\/1.0.0": {
+        "dependencies": {
+          "My.Interface": "1.0.0",
+          "My.Interface.Extended": "1.0.0"
+        },
+        "runtime": {
+          "My.Interface.Extended.Implementor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTestApp\/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "My.Interface\/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "My.Interface.Extended\/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "My.Interface.Extended.Implementor\/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
